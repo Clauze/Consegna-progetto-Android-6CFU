@@ -103,6 +103,7 @@
             android:layout_height="wrap_content"
             android:theme="@style/FAB"
             app:borderWidth="0dp"
+            android:layout_marginRight="10dp"
             android:layout_gravity="center_vertical"
             app:tint="@color/gray"
             android:src="@drawable/ic_baseline_send_24"

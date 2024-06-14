@@ -55,6 +55,7 @@ class MessagesListFragment : Fragment() {
         inflaterView = inflater.inflate(R.layout.fragment_chat_messages, container, false)
 
         val toolbar: Toolbar = inflaterView.findViewById(R.id.toolbar)
+        (activity as AppCompatActivity).setSupportActionBar(toolbar)
         toolbar.title = ""
         val phoneNumberTextView = toolbar.findViewById<TextView>(R.id.phone_number)
         phoneNumberTextView.text = phoneNumber
@@ -66,7 +67,6 @@ class MessagesListFragment : Fragment() {
         deleteButton.setOnClickListener {
             deleteMessages()
         }
-        (activity as AppCompatActivity).setSupportActionBar(toolbar)
 
         val recyclerView: RecyclerView = inflaterView.findViewById(R.id.messages_list)
         val adapter = MessageListAdapter()
@@ -98,7 +98,7 @@ class MessagesListFragment : Fragment() {
 
                 if(it.isNotEmpty()) {
                     recyclerView.post {
-                        recyclerView.smoothScrollToPosition(it.size )
+                        recyclerView.smoothScrollToPosition(it.size)
                         Log.d("MessagesListFragment", "RecyclerView scrolled to position: ${it.size }")
                     }
 
@@ -145,7 +145,7 @@ class MessagesListFragment : Fragment() {
                             } else {
                                 Toast.makeText(
                                     context,
-                                    "Delete $numberDelete messages or entire chat",
+                                    "Delete $numberDelete messages",
                                     Toast.LENGTH_SHORT
                                 ).show()
                             }
