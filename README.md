@@ -14,5 +14,5 @@ L'applicazione dispone delle seguenti interfacce:
    - Inserire un nuovo messaggio, successivamente verrà generato un messaggio fittizio dall'app
    - Cancellare gli ultimi n messaggi attraverso il pulsante con il cestino in alto a destra, se n è maggiore dei messaggi presenti nella chat, verranno cancellati tutti i messaggi
    - Tornare alla schermata con la lista delle chat cliccando il tasto indietro in alto a sinistra
-3. L'applicazione funziona sia in modalità landscape che portrait, inoltre sono previsti sia il tema light che dark, nel caso in cui questo sia abilitato in android
+3. L'applicazione funziona sia in modalità landscape che portrait. Inoltre, per l'applicazione sono previste sia la light mode che la dark mode.
 
