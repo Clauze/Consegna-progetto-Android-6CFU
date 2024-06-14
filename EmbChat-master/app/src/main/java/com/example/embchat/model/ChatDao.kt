@@ -1,12 +1,11 @@
-package com.example.embchat.data
+package com.example.embchat.model
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.embchat.data.entity.Chat
-import com.example.embchat.data.entity.Message
+import com.example.embchat.model.entity.Chat
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -34,6 +33,6 @@ interface ChatDao {
      * Elimina una chat
      */
     @Delete
-    suspend fun delete(chat:Chat)
+    suspend fun delete(chat: Chat)
 
 }

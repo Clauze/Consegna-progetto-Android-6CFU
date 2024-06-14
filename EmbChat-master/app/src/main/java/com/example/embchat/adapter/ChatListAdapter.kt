@@ -9,9 +9,9 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.embchat.ChatDetail
+import com.example.embchat.serializable.ChatDetail
 import com.example.embchat.R
-import com.example.embchat.data.entity.Chat
+import com.example.embchat.model.entity.Chat
 import com.example.embchat.adapter.ChatListAdapter.ChatViewHolder
 import com.example.embchat.fragment.ChatListFragmentDirections
 

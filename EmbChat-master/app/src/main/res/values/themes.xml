@@ -17,7 +17,7 @@
         <item name="android:textColor">@color/white</item>
     </style>
     <style name="ChatOtherText">
-        <item name="android:background">@color/secondary_color</item>
+        <item name="android:background">@color/reply_color_default</item>
         <item name="android:textColor">@color/white</item>
     </style>
     <style name="FAB">

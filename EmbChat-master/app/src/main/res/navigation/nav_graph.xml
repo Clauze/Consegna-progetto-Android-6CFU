@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_chat_messages">
         <argument
             android:name="chatId"
-            app:argType="com.example.embchat.ChatDetail"/>
+            app:argType="com.example.embchat.serializable.ChatDetail"/>
         <action
             android:id="@+id/action_messagesListFragment_to_chatListFragment"
             app:destination="@id/chatListFragment"/>

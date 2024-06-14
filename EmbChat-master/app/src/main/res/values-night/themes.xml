@@ -13,7 +13,7 @@
         <!-- Customize your theme here. -->
     </style>
     <style name="DefaultStyle">
-        <item name="android:background">@color/secondary_color</item>
+        <item name="android:background">@color/default_color_dark</item>
         <item name="android:textColor">@color/white</item>
     </style>
     <style name="ChatOtherText">

@@ -1,4 +1,4 @@
-package com.example.embchat
+package com.example.embchat.serializable
 
 import java.io.Serializable
 

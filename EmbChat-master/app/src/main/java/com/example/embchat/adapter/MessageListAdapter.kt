@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.embchat.R
-import com.example.embchat.data.entity.Message
+import com.example.embchat.model.entity.Message
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

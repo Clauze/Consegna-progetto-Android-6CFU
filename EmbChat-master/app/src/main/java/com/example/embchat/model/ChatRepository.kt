@@ -1,7 +1,7 @@
-package com.example.embchat.data
+package com.example.embchat.model
 
 import androidx.annotation.WorkerThread
-import com.example.embchat.data.entity.Chat
+import com.example.embchat.model.entity.Chat
 import kotlinx.coroutines.flow.Flow
 
 class ChatRepository(private val chatDao: ChatDao) {

@@ -92,6 +92,8 @@
             android:layout_weight="1"
             android:theme="@style/EditTextTheme"
             android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_background"
             android:hint="@string/send_message"
             android:importantForAutofill="no"
             android:inputType="text" />

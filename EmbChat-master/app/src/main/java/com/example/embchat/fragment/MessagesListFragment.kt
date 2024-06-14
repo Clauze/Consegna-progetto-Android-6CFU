@@ -21,8 +21,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.embchat.R
 import com.example.embchat.adapter.MessageListAdapter
-import com.example.embchat.data.ChatApplication
-import com.example.embchat.data.entity.Message
+import com.example.embchat.model.ChatApplication
+import com.example.embchat.model.entity.Message
 import com.example.embchat.viewModel.MessagesViewModel
 import com.example.embchat.viewModel.MessagesViewModelFactory
 import com.google.android.material.floatingactionbutton.FloatingActionButton

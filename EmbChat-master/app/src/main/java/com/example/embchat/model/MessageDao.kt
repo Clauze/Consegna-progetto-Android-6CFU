@@ -1,9 +1,9 @@
-package com.example.embchat.data
+package com.example.embchat.model
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.embchat.data.entity.Message
+import com.example.embchat.model.entity.Message
 import kotlinx.coroutines.flow.Flow
 
 @Dao

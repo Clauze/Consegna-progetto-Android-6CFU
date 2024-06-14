@@ -1,4 +1,4 @@
-package com.example.embchat.data
+package com.example.embchat.model
 
 import android.app.Application
 

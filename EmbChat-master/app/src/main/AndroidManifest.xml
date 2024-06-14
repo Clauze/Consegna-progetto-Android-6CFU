@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".data.ChatApplication"
+        android:name=".model.ChatApplication"
         android:enableOnBackInvokedCallback="true"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"

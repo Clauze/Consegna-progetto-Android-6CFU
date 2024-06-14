@@ -1,4 +1,4 @@
-package com.example.embchat.data.entity
+package com.example.embchat.model.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

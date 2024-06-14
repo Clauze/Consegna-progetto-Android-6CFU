@@ -5,8 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.embchat.data.entity.Chat
-import com.example.embchat.data.ChatRepository
+import com.example.embchat.model.entity.Chat
+import com.example.embchat.model.ChatRepository
 import kotlinx.coroutines.launch
 
 class ChatViewModel(private val repository: ChatRepository) : ViewModel() {
