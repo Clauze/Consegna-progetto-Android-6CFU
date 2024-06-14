@@ -9,6 +9,7 @@ L'applicazione dispone delle seguenti interfacce:
     - Inserire un nuovo numero di telefono attraverso il pulsante + in basso a destra. Il numero non verrà accettato solo nel caso in cui questo sia già presente
     - Eliminare una chat cliccando il bottone con l'immagine di un cestino a fianco di ogni chat
     - Cliccare una chat e passare alla seconda interfaccia con i messaggi scambiati
+    - Cliccare il tasto help in alto a destra, in cui viene mostrata un messaggio con il nome dello studente
 
 3. Schermata con tutti i messaggi scambiati con un numero di telefono, i messaggi dell'altro interlocutore sono autogenerati. Qui è possibile:
    - Inserire un nuovo messaggio, successivamente verrà generato un messaggio fittizio dall'app
