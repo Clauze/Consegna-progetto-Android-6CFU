@@ -4,7 +4,7 @@ L'applicazione è stata testata sui seguenti dispositivi (versione Android 14):
 * Samsung Galaxy s21+
 * Google pixel 2
 ## Funzionalità
-L'applicazione dispone delle seguenti interfacce:
+L'applicazione dispone delle seguenti funzinalità:
 1. Schermata iniziale in cui sono presenti tutte le chat, ordinate secondo l'ultimo messaggio inviato. In questa interfaccia è possibile:
     - Inserire un nuovo numero di telefono attraverso il pulsante + in basso a destra. Il numero non verrà accettato solo nel caso in cui questo sia già presente
     - Eliminare una chat cliccando il bottone con l'immagine di un cestino a fianco di ogni chat
