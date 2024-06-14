@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/chatListFragment">
+
+    <fragment
+        android:id="@+id/chatListFragment"
+        android:name="com.example.embchat.fragment.ChatListFragment"
+        android:label="ChatListFragment"
+        tools:layout="@layout/fragment_chat_list">
+        <action
+            android:id="@+id/action_chatListFragment_to_messagesListFragment"
+            app:destination="@id/messagesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messagesListFragment"
+        android:name="com.example.embchat.fragment.MessagesListFragment"
+        android:label="MessagesListFragment"
+        tools:layout="@layout/fragment_chat_messages">
+        <argument
+            android:name="chatId"
+            app:argType="com.example.embchat.ChatDetail"/>
+        <action
+            android:id="@+id/action_messagesListFragment_to_chatListFragment"
+            app:destination="@id/chatListFragment"/>
+    </fragment>
+</navigation>

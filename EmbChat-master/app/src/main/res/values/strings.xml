@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EmbChat</string>
+    <string name="insert_phone">Insert a new phone number</string>
+    <string name="delete_messages">Insert number of messages to delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="phone_number">phone</string>
+    <string name="conversations">Conversations</string>
+    <string name="chatIdArg">chatId</string>
+    <string name="chatNumber">chatNumber</string>
+    <string name="send_message">insert your message</string>
+    <string name="message_toolbar_title">Messages</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="number_chat_to_delete">number of chat to delete</string>
+    <string name="help">help</string>
+    <string name="create_new_chat">create new chat</string>
+    <string name="back">back</string>
+    <string name="user_image">user image</string>
+    <string name="send_message_desc">send message</string>
+</resources>
