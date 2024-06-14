@@ -41,10 +41,6 @@ class MessagesViewModel (private val repository: MessageRepository) : ViewModel(
             chatId = idChat
         }
 
-        fun resetChatId() {
-            chatId = -1
-        }
-
     }
 }
 
