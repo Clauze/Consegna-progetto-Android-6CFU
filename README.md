@@ -10,11 +10,9 @@ L'applicazione dispone delle seguenti interfacce:
     - Eliminare una chat cliccando il bottone con l'immagine di un cestino a fianco di ogni chat
     - Cliccare una chat e passare alla seconda interfaccia con i messaggi scambiati
     - Cliccare il tasto help in alto a destra, verrà poi mostrato un messaggio con il nome dello studente
-
-3. Schermata con tutti i messaggi scambiati con un numero di telefono, i messaggi dell'altro interlocutore sono autogenerati. Qui è possibile:
+2. Schermata con tutti i messaggi scambiati con un determinato numero di telefono. I messaggi dell'altro interlocutore sono autogenerati. Qui è possibile:
    - Inserire un nuovo messaggio, successivamente verrà generato un messaggio fittizio dall'app
    - Cancellare gli ultimi n messaggi attraverso il pulsante con il cestino in alto a destra, se n è maggiore dei messaggi presenti nella chat, verranno cancellati tutti i messaggi
-   - Tornare alla schermata con la lista delle chat cliccando il taso indietro in alto a sinistra
-
-5. L'applicazione funziona sia in modalità landscape che portrait, inoltre sono previsti sia il tema light che dark nel caso in cui questo sia abilitato in android
+   - Tornare alla schermata con la lista delle chat cliccando il tasto indietro in alto a sinistra
+3. L'applicazione funziona sia in modalità landscape che portrait, inoltre sono previsti sia il tema light che dark, nel caso in cui questo sia abilitato in android
 
