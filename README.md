@@ -1,4 +1,4 @@
-# EmbChat - Studente Claudio Battistin (2032599)
+# EmbChat 
 Consegna del progetto A da 6CFU riguardante la creazione di una app di messaggistica istantanea. 
 L'applicazione è stata testata sui seguenti dispositivi (versione Android 14):
 * Samsung Galaxy s21+
